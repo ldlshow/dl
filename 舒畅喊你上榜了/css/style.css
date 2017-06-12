@@ -1,0 +1,126 @@
+*{ padding: 0; margin: 0; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+::-webkit-scrollbar{ width: 0;}
+ul,li{ list-style: none;}
+body{ background: url(../img/bjl.png); width: 100%; height: 100%; background-repeat: repeat-y; font-family: helvetica;}
+.banner{ margin:0 auto; text-align: center;}
+a.btn{ display: block;  margin: 30px auto; width: 90%;}
+.get{ width: 90%; margin: 0 auto;}
+
+
+.main{ width: 90%; margin: 0 auto;}
+.ads{  margin: 10px auto;text-align: center;}
+p.num{ text-align: center; font-size: 0.75rem; color:#333; margin-top:30px;}
+p.num span{ font-size:0.825rem; color: #fff; padding:0 3px;}
+
+.bar{ text-align: center;}
+
+.look{display: block;
+    text-align: center;
+    /*margin-top: 20px;*/
+    font-size: 0.75rem;
+    color: #fff;
+    letter-spacing: 1px;}
+.info{ margin:10px auto;}
+.info .baby{ background: url(../img/da.png); background-repeat: no-repeat;background-size: 100%;
+    width:26%;
+    height: 100px;
+    float: left;
+}
+
+.info .baby img{ width: 88%;
+    margin-top: 8%;
+    margin-left: 3%;
+    border-radius: 50%;}
+
+.text{ background: url(../img/bj.png); background-repeat: no-repeat; background-size:100%;width: 74%;
+    float: right;
+    height: 107px;}
+.text p{ line-height: 18px;
+    font-size: 0.75rem;
+    padding: 5% 5% 10% 10%;
+    color: #0F71C7;}
+    
+.info:after{ content: ''; clear: both; display: block;}
+.support{ background: url(../img/anniu.png); background-size:100%; display: block; text-align: center; background-repeat:no-repeat ; line-height: 40px; text-decoration: none;
+color: #000; font-size:0.75rem; margin-top:20px; height: 54px; line-height: 42px;}
+.support em{ display: inline-block; background: url(../img/dianzan.png); background-size:100%;width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 2px; }
+
+.support em.check{display: inline-block; background: url(../img/ydz.png);background-size:100%;width: 15px;
+    height: 15px; }
+    
+    
+.ranking{margin-top: 10px;
+    text-align: center;
+    font-size: 0.75rem;}
+.ranking span{ color: #fff;}
+
+.talk{ border-radius: 5px; background: #fff; margin:20px auto;}
+.talk > h2{ line-height: 40px; border-bottom:1px solid #d9d9d9; text-align: center;color: #333; font-size:0.925rem; margin:0 10px;}
+.talk .list{ height: 70px; border-bottom:1px solid #d9d9d9; margin:0 10px;}
+.talk .list .baby_two{background: url(../img/da.png); background-repeat: no-repeat;background-size: 100%;
+    width:46px;
+    margin-top: 8px;
+    float: left;}
+.talk .list .baby_two img{ width: 40px;height: 40px; margin-top: 8%;
+    margin-left: 3%;
+    border-radius: 50%;}
+.talk .list .detail{ float: right;width: 78%;margin-left: 10px;margin-top: 7px;}
+.talk .list .detail h2{ font-size:0.825rem; color: #333;line-height: 22px;}
+.talk .list .detail h2 span{ display: block; float: right; color: #666;}
+.talk .list .detail p{ font-size: 0.75rem; color:#666; line-height: 20px;}
+
+.support_btn{ background: #fff; position: fixed; bottom: 0; width: 100%;}
+.support_btn a{ display: block;line-height: 45px; text-align: center; font-size: 0.75rem;color: #333; text-decoration: none;
+width:33%; border-right:1px solid #E1DFE2; float: left;}
+.support_btn a:last-child{ border:none;}
+.support_btn:after{ clear: both;content: '';display: block;}
+.support_btn a.hover{ color: #333;
+    background: #ffdb5c;}
+
+
+/*个人排行榜*/
+
+.tab{ line-height: 48px; background: #fff;}
+.tab ul{}
+.tab ul li{ float:left; text-align: center; width: 49%; border-right:1px solid #E0E8F5;}
+.tab ul li:last-child{ border: none;}
+.tab ul:after { content: ''; display: block; clear: both;}
+.tab ul li a{ text-decoration:none; color: #333; font-size:0.825rem;}
+.tab ul li a.cover{ display: block; color: #6CA3FE;  width: 72%; margin:0 auto; border-bottom: 2px solid #6CA3FE;}
+
+
+
+table.personal{background: #fff;width:95%; margin:20px 2.5%; border:1px solid rgba(220,226,237,0.5); font-weight: normal;}
+table.personal th{line-height: 47px;background: #6ca3fe;color: #fff; border: 1px solid #6ca3fe; font-size:0.75rem;}
+table.personal tr td{ text-align: center; line-height: 56px; font-size: 0.75rem; color: #6CA3FE;}
+table.personal tr td img{ width: 24px; height: 34px; vertical-align: middle; padding:5px 0;}
+
+.bottom{ margin: 0 auto; margin: 0 10px;}
+.bottom a {float: left; display: block;text-align:center;background:#fff; color: #6CA3FE; font-size: 0.825rem; line-height: 40px;
+border: 1px solid #6CA3FE; text-decoration: none; width: 47%; margin-right:3%;}
+.bottom a:last-child{ margin-right: 0;} 
+.bottom:after{ display: block; clear: both; content: '';}
+
+
+/*公司排行榜*/
+
+.pbar{ line-height: 3px; text-align: center; color: #333; font-size: 0.925rem; margin-top:20px}
+.pbar span{ padding:0 5px; color:red; font-size:1.125rem;}
+table.company{background: #fff;width:95%; margin:20px 2.5%; border:1px solid rgba(220,226,237,0.5); font-weight: normal;}
+table.company th{line-height: 47px; font-size:0.75rem;background: #6ca3fe;color: #fff; border:1px solid #6CA3FE;}
+table.company tr td{ text-align: center; line-height: 36px; font-size: 0.825rem; color: #6CA3FE;}
+table.company tr td img{ width: 24px; height: 34px; vertical-align: middle; padding:5px 0;}
+
+.bobyimg{ width: 40px!important; height: 40px!important; border-radius: 50%; border:1px solid #6CA3FE; padding:0!important;}
+
+table{border-collapse:collapse;}
+table.personal tr td:nth-child(3){ line-height: 19px;}
+table.personal tr td:nth-child(4){ line-height: 19px;}
+table.company tr td:nth-child(2){ line-height: 19px;padding: 2px 5px;}
+
+
+
